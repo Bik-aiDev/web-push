@@ -42,9 +42,9 @@ self.addEventListener('notificationclick', function (event) {
 
 });
 
-importScripts('https://staging-bikayi.firebaseapp.com/__/firebase/9.2.0/firebase-app-compat.js');
-importScripts('https://staging-bikayi.firebaseapp.com/__/firebase/9.2.0/firebase-messaging-compat.js');
-importScripts('https://staging-bikayi.firebaseapp.com/__/firebase/init.js');
+importScripts('https://bikayi-chat.firebaseapp.com/__/firebase/9.2.0/firebase-app-compat.js');
+importScripts('https://bikayi-chat.firebaseapp.com/__/firebase/9.2.0/firebase-messaging-compat.js');
+importScripts('https://bikayi-chat.firebaseapp.com/__/firebase/init.js');
 
 const messaging = firebase.messaging();
 
